@@ -1,0 +1,16 @@
+[package]
+name = "CHIP-8-Rust"
+version = "0.1.0"
+authors = ["Ammar Farhan Mohamad Rizam"]
+edition = "2022"
+description = "A CHIP-8 emulator written in Rust."
+License = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
