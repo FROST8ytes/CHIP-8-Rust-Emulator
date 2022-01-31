@@ -4,6 +4,7 @@ pub struct Chip8 {
     ram: MainMemory,
 }
 
+#[allow(dead_code)]
 impl Chip8 {
     /// Create a Chip8 object with ram set to zeros for all 4096 bytes.
     /// 
@@ -31,7 +32,7 @@ impl Chip8 {
         let mut offset: u16 = 0x200;
         for eight_bytes in data {
             self.ram.write_bytes(offset, eight_bytes.clone());
-            offset += 0x8;
+            offset += 1;
         }
     }
 }
