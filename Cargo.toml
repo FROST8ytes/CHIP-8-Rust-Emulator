@@ -1,7 +1,7 @@
 [package]
 name = "CHIP-8-Rust"
 version = "0.1.0"
-authors = ["Ammar Farhan Mohamad Rizam"]
+authors = ["Ammar Farhan Mohamad Rizam <ammarfmr11@gmail.com>"]
 edition = "2022"
 description = "A CHIP-8 emulator written in Rust."
 License = "MIT"
