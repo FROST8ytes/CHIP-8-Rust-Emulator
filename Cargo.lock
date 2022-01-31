@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "CHIP-8-Rust"
+name = "chip-8-rust"
 version = "0.1.0"
